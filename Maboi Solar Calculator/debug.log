@@ -1,0 +1,981 @@
+- 14:22:06.203 INFO: --------------------------------------------------------
+- 14:22:06.203 INFO: Started application
+- 14:22:06.203 INFO: Logging to: C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 14:22:06.203 INFO: Log level = DEBUG4
+- 14:22:06.219 INFO: Starting Mongoose 3.9c web server
+- 14:22:06.219 INFO: WWW directory: C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 14:22:06.250 INFO: Index files: index.html,index.php
+- 14:22:06.250 INFO: CGI interpreter: C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 14:22:06.250 INFO: CGI pattern: **.php$
+- 14:22:06.250 INFO: Hide files patterns: 
+- 14:22:06.250 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:22:06.328 INFO: Web server url: http://127.0.0.1:11196/
+- 14:22:06.328 INFO: remote_debugging_port = 58331
+- 14:22:06.328 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58331
+[0806/142206.914:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:22:06.438 DEBUG: App::OnContextInitialized()
+- 14:22:06.438 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:22:06.453 DEBUG: Window max width/height = 1842/984
+- 14:22:06.469 DEBUG: GetBrowserWindow(): not found, hwnd = 203680
+- 14:22:07.469 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:22:07.469 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:22:07.469 DEBUG: StoreBrowserWindow(): hwnd = 203680
+- 14:22:07.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=3B2DA26E3BFD3FCE3A750A2A3937E715 --mojo-platform-channel-handle=1804 /prefetch:2
+- 14:22:07.594 DEBUG: ClientHandler::OnAfterCreated()
+- 14:22:07.594 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:22:07.609 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:22:07.015 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E29C2D9BC9A0A8B3063B369E32413B50 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E29C2D9BC9A0A8B3063B369E32413B50 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+- 14:22:07.093 DEBUG: OnBrowserCreated()
+[0806/142207.329:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:22:08.172 INFO: GET 200 /style.css
+- 14:22:08.188 INFO: GET 200 /
+- 14:22:08.515 DEBUG: OnContextCreated()
+- 14:22:08.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11196/
+[0806/142211.941:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:22:12.063 DEBUG: WM_DESTROY
+- 14:22:12.063 DEBUG: RemoveBrowserWindow(): hwnd = 203680
+- 14:22:12.078 INFO: Stopping Mongoose web server
+- 14:22:12.078 DEBUG: Mongoose webserver stopped immediately
+- 14:22:12.094 DEBUG: OnBeforeClose() hwnd=203654
+- 14:22:12.094 DEBUG: RemoveBrowserWindow(): hwnd = 203654
+- 14:22:12.094 DEBUG: GetBrowserWindow(): not found, hwnd = 203654
+- 14:22:12.094 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:22:12.094 DEBUG: Calling CefQuitMessageLoop()
+- 14:22:12.156 INFO: Ended application
+- 14:22:12.156 INFO: --------------------------------------------------------
+- 14:31:05.250 INFO: --------------------------------------------------------
+- 14:31:05.250 INFO: Started application
+- 14:31:05.250 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:31:05.266 INFO: Log level = DEBUG4
+- 14:31:05.266 INFO: Starting Mongoose 3.9c web server
+- 14:31:05.266 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www
+- 14:31:05.266 INFO: Index files: index.html,index.php
+- 14:31:05.266 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:31:05.266 INFO: CGI pattern: **.php$
+- 14:31:05.266 INFO: Hide files patterns: 
+- 14:31:05.266 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:31:05.328 INFO: Web server url: http://127.0.0.1:11215/
+- 14:31:05.328 INFO: remote_debugging_port = 59642
+- 14:31:05.344 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=59642
+[0806/143106.136:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:31:06.766 DEBUG: App::OnContextInitialized()
+- 14:31:06.766 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:31:06.781 DEBUG: Window max width/height = 1842/984
+- 14:31:06.797 DEBUG: GetBrowserWindow(): not found, hwnd = 3021720
+- 14:31:06.797 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:31:06.797 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:31:06.797 DEBUG: StoreBrowserWindow(): hwnd = 3021720
+- 14:31:06.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=A754195D6515CEAE7BEFAD94525DB213 --mojo-platform-channel-handle=1936 /prefetch:2
+- 14:31:06.922 DEBUG: ClientHandler::OnAfterCreated()
+- 14:31:06.922 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:31:06.938 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:31:06.016 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=91C3FF94A33668CB50C4CF4BE787700E --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=91C3FF94A33668CB50C4CF4BE787700E --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+- 14:31:06.094 DEBUG: OnBrowserCreated()
+[0806/143106.750:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:31:06.203 INFO: GET 200 /
+- 14:31:06.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11215/
+- 14:31:10.891 DEBUG: WM_DESTROY
+- 14:31:10.891 DEBUG: RemoveBrowserWindow(): hwnd = 3021720
+- 14:31:10.891 INFO: Stopping Mongoose web server
+- 14:31:10.906 DEBUG: Mongoose webserver stopped immediately
+- 14:31:10.922 DEBUG: OnBeforeClose() hwnd=596844
+- 14:31:10.922 DEBUG: RemoveBrowserWindow(): hwnd = 596844
+- 14:31:10.922 DEBUG: GetBrowserWindow(): not found, hwnd = 596844
+- 14:31:10.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:31:10.922 DEBUG: Calling CefQuitMessageLoop()
+- 14:31:10.985 INFO: Ended application
+- 14:31:10.985 INFO: --------------------------------------------------------
+- 14:35:42.188 INFO: --------------------------------------------------------
+- 14:35:42.188 INFO: Started application
+- 14:35:42.203 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:35:42.203 INFO: Log level = DEBUG4
+- 14:35:42.203 INFO: Starting Mongoose 3.9c web server
+- 14:35:42.203 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:35:42.203 INFO: Index files: index.php
+- 14:35:42.203 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:35:42.203 INFO: CGI pattern: **.php$
+- 14:35:42.203 INFO: Hide files patterns: 
+- 14:35:42.219 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:35:42.297 INFO: Web server url: http://127.0.0.1:11225/
+- 14:35:42.297 INFO: remote_debugging_port = 65374
+- 14:35:42.297 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=65374
+[0806/143542.458:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:35:42.391 DEBUG: App::OnContextInitialized()
+- 14:35:42.391 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:35:42.391 DEBUG: Window max width/height = 1842/984
+- 14:35:42.406 DEBUG: GetBrowserWindow(): not found, hwnd = 1117990
+- 14:35:42.406 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:35:42.406 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:35:42.406 DEBUG: StoreBrowserWindow(): hwnd = 1117990
+- 14:35:42.531 DEBUG: ClientHandler::OnAfterCreated()
+- 14:35:42.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:35:42.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=8A846F374090858D501172126EEE2D7C --mojo-platform-channel-handle=1804 /prefetch:2
+- 14:35:42.547 DEBUG: OnLoadingStateChange: loading=1, url=
+[0806/143542.754:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:35:42.015 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=84D20B9493FD9B0DC6329FB714775996 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=84D20B9493FD9B0DC6329FB714775996 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+- 14:35:42.078 DEBUG: OnBrowserCreated()
+- 14:35:44.485 INFO: GET 200 /
+- 14:35:44.844 DEBUG: OnContextCreated()
+- 14:35:44.500 INFO: GET 200 /css/style.css
+- 14:35:44.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11225/
+[0806/143547.476:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143552.495:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143557.512:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143602.543:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:36:04.672 DEBUG: WM_DESTROY
+- 14:36:04.672 DEBUG: RemoveBrowserWindow(): hwnd = 1117990
+- 14:36:04.688 INFO: Stopping Mongoose web server
+- 14:36:04.688 DEBUG: Mongoose webserver stopped immediately
+- 14:36:04.703 DEBUG: OnBeforeClose() hwnd=1907622
+- 14:36:04.703 DEBUG: RemoveBrowserWindow(): hwnd = 1907622
+- 14:36:04.703 DEBUG: GetBrowserWindow(): not found, hwnd = 1907622
+- 14:36:04.703 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:36:04.703 DEBUG: Calling CefQuitMessageLoop()
+- 14:36:04.781 INFO: Ended application
+- 14:36:04.781 INFO: --------------------------------------------------------
+- 14:36:48.187 INFO: --------------------------------------------------------
+- 14:36:48.203 INFO: Started application
+- 14:36:49.203 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:36:49.203 INFO: Log level = DEBUG4
+- 14:36:49.203 INFO: Starting Mongoose 3.9c web server
+- 14:36:49.203 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:36:49.203 INFO: Index files: index.php
+- 14:36:49.203 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:36:49.203 INFO: CGI pattern: **.php$
+- 14:36:49.203 INFO: Hide files patterns: 
+- 14:36:49.203 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:36:49.281 INFO: Web server url: http://127.0.0.1:11232/
+- 14:36:49.281 INFO: remote_debugging_port = 61947
+- 14:36:49.281 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=61947
+[0806/143649.146:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:36:49.390 DEBUG: App::OnContextInitialized()
+- 14:36:49.390 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:36:49.390 DEBUG: Window max width/height = 1842/984
+- 14:36:49.406 DEBUG: GetBrowserWindow(): not found, hwnd = 3677062
+- 14:36:49.406 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:36:49.422 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:36:49.422 DEBUG: StoreBrowserWindow(): hwnd = 3677062
+- 14:36:49.547 DEBUG: ClientHandler::OnAfterCreated()
+- 14:36:49.547 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:36:49.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=8BE8674699B265C7523BE6C44560828E --mojo-platform-channel-handle=1804 /prefetch:2
+- 14:36:49.578 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:36:49.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F13E3F57D6404FD574944629471FD328 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F13E3F57D6404FD574944629471FD328 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[0806/143649.524:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:36:49.094 DEBUG: OnBrowserCreated()
+- 14:36:50.359 INFO: GET 200 /
+- 14:36:50.672 DEBUG: OnContextCreated()
+- 14:36:50.375 INFO: GET 200 /css/style.css
+- 14:36:50.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11232/
+[0806/143654.158:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:36:56.390 DEBUG: WM_DESTROY
+- 14:36:56.390 DEBUG: RemoveBrowserWindow(): hwnd = 3677062
+- 14:36:56.390 INFO: Stopping Mongoose web server
+- 14:36:56.406 DEBUG: Mongoose webserver stopped immediately
+- 14:36:56.406 DEBUG: OnBeforeClose() hwnd=793446
+- 14:36:56.422 DEBUG: RemoveBrowserWindow(): hwnd = 793446
+- 14:36:56.422 DEBUG: GetBrowserWindow(): not found, hwnd = 793446
+- 14:36:56.422 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:36:56.422 DEBUG: Calling CefQuitMessageLoop()
+- 14:36:56.484 INFO: Ended application
+- 14:36:56.484 INFO: --------------------------------------------------------
+- 14:37:27.156 INFO: --------------------------------------------------------
+- 14:37:27.156 INFO: Started application
+- 14:37:27.156 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:37:27.171 INFO: Log level = DEBUG4
+- 14:37:27.171 INFO: Starting Mongoose 3.9c web server
+- 14:37:27.171 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:37:27.171 INFO: Index files: index.php
+- 14:37:27.187 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:37:27.187 INFO: CGI pattern: **.php$
+- 14:37:27.187 INFO: Hide files patterns: 
+- 14:37:27.187 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:37:27.250 INFO: Web server url: http://127.0.0.1:11235/
+- 14:37:27.265 INFO: remote_debugging_port = 60053
+- 14:37:27.265 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=60053
+[0806/143727.906:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:37:27.359 DEBUG: App::OnContextInitialized()
+- 14:37:27.359 DEBUG: GetBrowserWindow(): not found, hwnd = 7409530
+- 14:37:27.359 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:37:27.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:37:27.375 DEBUG: StoreBrowserWindow(): hwnd = 7409530
+- 14:37:28.500 DEBUG: ClientHandler::OnAfterCreated()
+- 14:37:28.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:37:28.515 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:37:28.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=0F0796312D570BAE04C2AC53F8413B07 --mojo-platform-channel-handle=1824 /prefetch:2
+- 14:37:28.015 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D316B2D8351EDE688E6703352F6A4686 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D316B2D8351EDE688E6703352F6A4686 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[0806/143728.230:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:37:28.078 DEBUG: OnBrowserCreated()
+- 14:37:28.281 INFO: GET 200 /
+- 14:37:28.656 DEBUG: OnContextCreated()
+- 14:37:28.296 INFO: GET 200 /css/style.css
+- 14:37:29.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11235/
+- 14:37:31.281 DEBUG: WM_DESTROY
+- 14:37:31.281 DEBUG: RemoveBrowserWindow(): hwnd = 7409530
+- 14:37:31.281 INFO: Stopping Mongoose web server
+- 14:37:31.281 DEBUG: Mongoose webserver stopped immediately
+- 14:37:31.296 DEBUG: OnBeforeClose() hwnd=2890672
+- 14:37:31.296 DEBUG: RemoveBrowserWindow(): hwnd = 2890672
+- 14:37:31.312 DEBUG: GetBrowserWindow(): not found, hwnd = 2890672
+- 14:37:31.312 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:37:31.312 DEBUG: Calling CefQuitMessageLoop()
+- 14:37:31.359 INFO: Ended application
+- 14:37:31.375 INFO: --------------------------------------------------------
+- 14:37:34.188 INFO: --------------------------------------------------------
+- 14:37:34.188 INFO: Started application
+- 14:37:34.188 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:37:34.203 INFO: Log level = DEBUG4
+- 14:37:34.203 INFO: Starting Mongoose 3.9c web server
+- 14:37:34.219 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:37:34.219 INFO: Index files: index.php
+- 14:37:34.219 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:37:34.219 INFO: CGI pattern: **.php$
+- 14:37:34.219 INFO: Hide files patterns: 
+- 14:37:34.219 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:37:34.281 INFO: Web server url: http://127.0.0.1:11238/
+- 14:37:34.297 INFO: remote_debugging_port = 60107
+- 14:37:34.297 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=60107
+[0806/143734.956:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:37:34.375 DEBUG: App::OnContextInitialized()
+- 14:37:35.391 DEBUG: GetBrowserWindow(): not found, hwnd = 7147274
+- 14:37:35.391 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:37:35.406 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:37:35.406 DEBUG: StoreBrowserWindow(): hwnd = 7147274
+- 14:37:35.531 DEBUG: ClientHandler::OnAfterCreated()
+- 14:37:35.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:37:35.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=0AB78063CEF8C311DF90D28CD962D92E --mojo-platform-channel-handle=1896 /prefetch:2
+- 14:37:35.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:37:35.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B2E9CF82694BDA00BD270F9A301D9F13 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B2E9CF82694BDA00BD270F9A301D9F13 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+[0806/143735.255:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:37:35.063 DEBUG: OnBrowserCreated()
+- 14:37:35.656 DEBUG: OnContextCreated()
+- 14:37:35.281 INFO: GET 200 /
+- 14:37:35.297 INFO: GET 200 /css/style.css
+- 14:37:36.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11238/
+[0806/143739.975:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143744.993:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143750.004:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143755.035:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:37:58.922 DEBUG: OnBeforeClose() hwnd=2956208
+- 14:37:58.922 DEBUG: RemoveBrowserWindow(): hwnd = 2956208
+- 14:37:58.922 DEBUG: GetBrowserWindow(): not found, hwnd = 2956208
+- 14:37:58.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:39:33.141 INFO: --------------------------------------------------------
+- 14:39:33.141 INFO: Started application
+- 14:39:33.141 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:39:33.156 INFO: Log level = DEBUG4
+- 14:39:33.156 INFO: Starting Mongoose 3.9c web server
+- 14:39:33.156 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:39:33.156 INFO: Index files: index.php
+- 14:39:33.156 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:39:33.156 INFO: CGI pattern: **.php$
+- 14:39:33.156 INFO: Hide files patterns: 
+- 14:39:33.156 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:39:33.234 INFO: Web server url: http://127.0.0.1:11245/
+- 14:39:33.234 INFO: remote_debugging_port = 49820
+- 14:39:33.234 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=49820
+[0806/143933.371:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:39:33.328 DEBUG: App::OnContextInitialized()
+- 14:39:33.344 DEBUG: GetBrowserWindow(): not found, hwnd = 1514356
+- 14:39:33.344 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:39:33.359 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:39:33.359 DEBUG: StoreBrowserWindow(): hwnd = 1514356
+- 14:39:33.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=13D83EDEB63265C836221AB8BBB6BF3C --mojo-platform-channel-handle=1804 /prefetch:2
+- 14:39:33.484 DEBUG: ClientHandler::OnAfterCreated()
+- 14:39:33.484 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:39:33.516 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:39:33.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=79CD6AC1BA681FB85709C649DBE34545 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=79CD6AC1BA681FB85709C649DBE34545 --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+[0806/143933.675:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:39:33.078 DEBUG: OnBrowserCreated()
+- 14:39:34.219 INFO: GET 200 /
+- 14:39:34.640 DEBUG: OnContextCreated()
+- 14:39:34.250 INFO: GET 200 /css/style.css
+- 14:39:34.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11245/
+[0806/143938.393:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143943.406:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143948.421:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143953.440:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/143958.458:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144003.473:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144008.490:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144013.507:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144018.521:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144023.538:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144028.553:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:40:30.547 DEBUG: WM_DESTROY
+- 14:40:30.547 DEBUG: RemoveBrowserWindow(): hwnd = 1514356
+- 14:40:30.547 INFO: Stopping Mongoose web server
+- 14:40:30.562 DEBUG: Mongoose webserver stopped immediately
+- 14:40:30.562 DEBUG: OnBeforeClose() hwnd=7606138
+- 14:40:30.562 DEBUG: RemoveBrowserWindow(): hwnd = 7606138
+- 14:40:30.578 DEBUG: GetBrowserWindow(): not found, hwnd = 7606138
+- 14:40:30.578 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:40:30.578 DEBUG: Calling CefQuitMessageLoop()
+- 14:40:30.641 INFO: Ended application
+- 14:40:30.641 INFO: --------------------------------------------------------
+- 14:48:47.172 INFO: --------------------------------------------------------
+- 14:48:47.172 INFO: Started application
+- 14:48:47.172 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:48:47.172 INFO: Log level = DEBUG4
+- 14:48:47.188 INFO: Starting Mongoose 3.9c web server
+- 14:48:47.188 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:48:47.188 INFO: Index files: index.php
+- 14:48:47.188 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:48:47.188 INFO: CGI pattern: **.php$
+- 14:48:47.188 INFO: Hide files patterns: 
+- 14:48:47.188 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:48:47.266 INFO: Web server url: http://127.0.0.1:11268/
+- 14:48:47.266 INFO: remote_debugging_port = 61818
+- 14:48:47.266 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=61818
+[0806/144847.715:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:48:47.359 DEBUG: App::OnContextInitialized()
+- 14:48:47.375 DEBUG: GetBrowserWindow(): not found, hwnd = 138332
+- 14:48:47.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:48:47.391 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:48:47.391 DEBUG: StoreBrowserWindow(): hwnd = 138332
+- 14:48:47.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=D73B9D47FD95CC4FF568465D475CAF65 --mojo-platform-channel-handle=1820 /prefetch:2
+- 14:48:47.500 DEBUG: ClientHandler::OnAfterCreated()
+- 14:48:47.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:48:47.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:48:48.016 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=711B32AA7F98373CB95AA7C4A15C9F74 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=711B32AA7F98373CB95AA7C4A15C9F74 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[0806/144848.034:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:48:48.079 DEBUG: OnBrowserCreated()
+- 14:48:48.250 INFO: GET 200 /
+- 14:48:48.657 DEBUG: OnContextCreated()
+- 14:48:48.266 INFO: GET 200 /css/style.css
+- 14:48:48.281 INFO: GET 200 /assets/img/logo.png
+- 14:48:48.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11268/
+[0806/144852.729:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144857.765:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144902.783:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144907.794:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144912.812:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144917.846:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144922.861:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144927.871:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144932.897:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144937.911:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144942.926:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144947.944:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144952.955:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/144957.974:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145002.997:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145008.014:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145013.029:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145018.044:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145023.060:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145028.077:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145033.094:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145038.105:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145043.127:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145048.146:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:50:49.422 DEBUG: WM_DESTROY
+- 14:50:49.453 DEBUG: RemoveBrowserWindow(): hwnd = 138332
+- 14:50:49.469 INFO: Stopping Mongoose web server
+- 14:50:49.469 DEBUG: Mongoose webserver stopped immediately
+- 14:50:49.484 DEBUG: OnBeforeClose() hwnd=203852
+- 14:50:49.484 DEBUG: RemoveBrowserWindow(): hwnd = 203852
+- 14:50:49.484 DEBUG: GetBrowserWindow(): not found, hwnd = 203852
+- 14:50:49.500 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:50:49.500 DEBUG: Calling CefQuitMessageLoop()
+- 14:50:50.609 INFO: Ended application
+- 14:50:50.609 INFO: --------------------------------------------------------
+- 14:50:58.172 INFO: --------------------------------------------------------
+- 14:50:58.172 INFO: Started application
+- 14:50:58.172 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:50:58.172 INFO: Log level = DEBUG4
+- 14:50:58.172 INFO: Starting Mongoose 3.9c web server
+- 14:50:58.172 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:50:58.172 INFO: Index files: index.php
+- 14:50:58.172 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:50:58.172 INFO: CGI pattern: **.php$
+- 14:50:58.172 INFO: Hide files patterns: 
+- 14:50:58.172 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:50:58.265 INFO: Web server url: http://127.0.0.1:11276/
+- 14:50:58.265 INFO: remote_debugging_port = 56274
+- 14:50:58.265 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=56274
+[0806/145058.874:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:50:58.359 DEBUG: App::OnContextInitialized()
+- 14:50:58.375 DEBUG: GetBrowserWindow(): not found, hwnd = 3411706
+- 14:50:58.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:50:58.390 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:50:58.390 DEBUG: StoreBrowserWindow(): hwnd = 3411706
+- 14:50:59.515 DEBUG: ClientHandler::OnAfterCreated()
+- 14:50:59.515 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:50:59.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=E04F6A67485AF80426767411E8CB6093 --mojo-platform-channel-handle=1808 /prefetch:2
+- 14:50:59.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:50:59.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EC4C10FE861469892342AE79F4D32694 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EC4C10FE861469892342AE79F4D32694 --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+[0806/145059.174:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:50:59.062 DEBUG: OnBrowserCreated()
+- 14:50:59.281 INFO: GET 200 /
+- 14:50:59.656 DEBUG: OnContextCreated()
+- 14:50:59.297 INFO: GET 200 /css/style.css
+- 14:50:59.312 INFO: GET 200 /assets/img/logo.png
+- 14:51:00.468 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11276/
+[0806/145103.908:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145108.931:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145113.943:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145118.962:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:51:22.984 DEBUG: WM_DESTROY
+- 14:51:22.984 DEBUG: RemoveBrowserWindow(): hwnd = 3411706
+- 14:51:22.984 INFO: Stopping Mongoose web server
+- 14:51:22.984 DEBUG: Mongoose webserver stopped immediately
+- 14:51:22.000 DEBUG: OnBeforeClose() hwnd=986920
+- 14:51:22.000 DEBUG: RemoveBrowserWindow(): hwnd = 986920
+- 14:51:22.000 DEBUG: GetBrowserWindow(): not found, hwnd = 986920
+- 14:51:22.000 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:51:22.000 DEBUG: Calling CefQuitMessageLoop()
+- 14:51:22.109 INFO: Ended application
+- 14:51:22.109 INFO: --------------------------------------------------------
+- 14:52:04.157 INFO: --------------------------------------------------------
+- 14:52:04.172 INFO: Started application
+- 14:52:04.172 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:52:04.172 INFO: Log level = DEBUG4
+- 14:52:04.172 INFO: Starting Mongoose 3.9c web server
+- 14:52:04.172 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:52:04.172 INFO: Index files: index.php
+- 14:52:04.172 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:52:04.188 INFO: CGI pattern: **.php$
+- 14:52:04.188 INFO: Hide files patterns: 
+- 14:52:04.188 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:52:04.250 INFO: Web server url: http://127.0.0.1:11284/
+- 14:52:04.250 INFO: remote_debugging_port = 54907
+- 14:52:04.266 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=54907
+[0806/145204.827:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:52:04.360 DEBUG: App::OnContextInitialized()
+- 14:52:04.360 DEBUG: GetBrowserWindow(): not found, hwnd = 466002
+- 14:52:04.360 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:52:04.360 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:52:04.360 DEBUG: StoreBrowserWindow(): hwnd = 466002
+- 14:52:05.500 DEBUG: ClientHandler::OnAfterCreated()
+- 14:52:05.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:52:05.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=D74C8A62562787D8D3B1114850AFA23F --mojo-platform-channel-handle=1900 /prefetch:2
+- 14:52:05.516 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:52:05.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1D603ECF073A9075F0BFFFCB41B21D1A --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1D603ECF073A9075F0BFFFCB41B21D1A --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[0806/145205.135:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:52:05.062 DEBUG: OnBrowserCreated()
+- 14:52:05.266 INFO: GET 200 /
+- 14:52:05.656 DEBUG: OnContextCreated()
+- 14:52:05.282 INFO: GET 200 /css/style.css
+- 14:52:05.282 INFO: GET 200 /assets/img/logo.png
+- 14:52:05.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11284/
+[0806/145209.861:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145214.876:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145219.893:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145224.907:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:52:28.063 DEBUG: WM_DESTROY
+- 14:52:28.063 DEBUG: RemoveBrowserWindow(): hwnd = 466002
+- 14:52:28.063 INFO: Stopping Mongoose web server
+- 14:52:28.079 DEBUG: Mongoose webserver stopped immediately
+- 14:52:28.094 DEBUG: OnBeforeClose() hwnd=597064
+- 14:52:28.094 DEBUG: RemoveBrowserWindow(): hwnd = 597064
+- 14:52:28.094 DEBUG: GetBrowserWindow(): not found, hwnd = 597064
+- 14:52:28.094 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:52:28.094 DEBUG: Calling CefQuitMessageLoop()
+- 14:52:28.172 INFO: Ended application
+- 14:52:28.172 INFO: --------------------------------------------------------
+- 14:54:16.156 INFO: --------------------------------------------------------
+- 14:54:16.172 INFO: Started application
+- 14:54:16.172 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:54:16.172 INFO: Log level = DEBUG4
+- 14:54:16.187 INFO: Starting Mongoose 3.9c web server
+- 14:54:16.203 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:54:16.203 INFO: Index files: index.php
+- 14:54:16.203 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:54:16.203 INFO: CGI pattern: **.php$
+- 14:54:16.203 INFO: Hide files patterns: 
+- 14:54:16.203 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:54:16.265 INFO: Web server url: http://127.0.0.1:11292/
+- 14:54:16.265 INFO: remote_debugging_port = 63825
+- 14:54:16.265 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=63825
+[0806/145416.194:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:54:16.359 DEBUG: App::OnContextInitialized()
+- 14:54:16.375 DEBUG: GetBrowserWindow(): not found, hwnd = 531538
+- 14:54:16.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:54:16.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:54:16.375 DEBUG: StoreBrowserWindow(): hwnd = 531538
+- 14:54:16.515 DEBUG: ClientHandler::OnAfterCreated()
+- 14:54:16.515 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:54:16.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=26D975913E0BD3FADCDEF329DECB7B41 --mojo-platform-channel-handle=1820 /prefetch:2
+- 14:54:16.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:54:16.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3EFB91AD2314C5B5A09094AA4BAE00BB --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3EFB91AD2314C5B5A09094AA4BAE00BB --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[0806/145416.495:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:54:16.078 DEBUG: OnBrowserCreated()
+- 14:54:17.172 INFO: GET 200 /
+- 14:54:17.563 DEBUG: OnContextCreated()
+- 14:54:17.172 INFO: GET 200 /css/style.css
+- 14:54:17.187 INFO: GET 200 /assets/img/logo.png
+- 14:54:17.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11292/
+[0806/145421.223:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145426.243:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145431.256:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145436.277:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145441.283:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145446.312:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145451.317:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145456.341:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145501.372:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145506.398:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145511.422:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145516.441:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:55:18.453 DEBUG: WM_DESTROY
+- 14:55:18.469 DEBUG: RemoveBrowserWindow(): hwnd = 531538
+- 14:55:18.469 INFO: Stopping Mongoose web server
+- 14:55:18.469 DEBUG: Mongoose webserver stopped immediately
+- 14:55:18.484 DEBUG: OnBeforeClose() hwnd=6360776
+- 14:55:18.484 DEBUG: RemoveBrowserWindow(): hwnd = 6360776
+- 14:55:18.484 DEBUG: GetBrowserWindow(): not found, hwnd = 6360776
+- 14:55:18.484 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:55:18.484 DEBUG: Calling CefQuitMessageLoop()
+- 14:55:18.625 INFO: Ended application
+- 14:55:18.625 INFO: --------------------------------------------------------
+- 14:55:33.188 INFO: --------------------------------------------------------
+- 14:55:33.188 INFO: Started application
+- 14:55:33.188 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:55:33.203 INFO: Log level = DEBUG4
+- 14:55:33.203 INFO: Starting Mongoose 3.9c web server
+- 14:55:33.219 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:55:33.219 INFO: Index files: index.php
+- 14:55:33.219 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:55:33.219 INFO: CGI pattern: **.php$
+- 14:55:33.219 INFO: Hide files patterns: 
+- 14:55:33.219 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:55:33.281 INFO: Web server url: http://127.0.0.1:11296/
+- 14:55:33.281 INFO: remote_debugging_port = 51798
+- 14:55:33.281 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=51798
+[0806/145533.204:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:55:33.375 DEBUG: App::OnContextInitialized()
+- 14:55:33.391 DEBUG: GetBrowserWindow(): not found, hwnd = 465998
+- 14:55:33.406 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:55:33.406 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:55:33.406 DEBUG: StoreBrowserWindow(): hwnd = 465998
+- 14:55:33.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=A3E6B9D35E70384A7CE80331426692B7 --mojo-platform-channel-handle=1792 /prefetch:2
+- 14:55:33.547 DEBUG: ClientHandler::OnAfterCreated()
+- 14:55:33.547 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:55:33.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:55:33.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=427571FC13F04344C0250D14704CB3FC --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=427571FC13F04344C0250D14704CB3FC --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+[0806/145533.509:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:55:33.078 DEBUG: OnBrowserCreated()
+- 14:55:34.313 INFO: GET 200 /
+- 14:55:34.672 DEBUG: OnContextCreated()
+- 14:55:34.328 INFO: GET 200 /css/style.css
+- 14:55:34.328 INFO: GET 404 /assets/img/logo.png
+- 14:55:34.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11296/
+[0806/145538.215:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145543.240:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145548.272:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145553.290:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145558.309:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145603.327:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145608.339:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145613.350:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145618.366:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145623.381:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145628.404:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145633.424:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145638.439:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145643.458:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145648.502:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145653.521:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145658.543:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145703.551:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145708.570:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145713.580:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145718.603:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145723.618:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145728.652:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145733.680:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145738.696:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145743.720:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145748.731:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145753.744:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145758.751:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145803.770:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145808.786:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145813.795:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145818.810:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145823.827:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145828.845:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145833.865:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145838.895:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145843.918:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145848.930:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145853.951:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:58:55.110 DEBUG: WM_DESTROY
+- 14:58:55.125 DEBUG: RemoveBrowserWindow(): hwnd = 465998
+- 14:58:55.125 INFO: Stopping Mongoose web server
+- 14:58:55.125 DEBUG: Mongoose webserver stopped immediately
+- 14:58:55.141 DEBUG: OnBeforeClose() hwnd=400472
+- 14:58:56.141 DEBUG: RemoveBrowserWindow(): hwnd = 400472
+- 14:58:56.141 DEBUG: GetBrowserWindow(): not found, hwnd = 400472
+- 14:58:56.141 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:58:56.156 DEBUG: Calling CefQuitMessageLoop()
+- 14:58:56.297 INFO: Ended application
+- 14:58:56.313 INFO: --------------------------------------------------------
+- 14:59:03.187 INFO: --------------------------------------------------------
+- 14:59:03.187 INFO: Started application
+- 14:59:03.187 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:59:03.187 INFO: Log level = DEBUG4
+- 14:59:03.187 INFO: Starting Mongoose 3.9c web server
+- 14:59:03.203 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:59:03.203 INFO: Index files: index.php
+- 14:59:03.203 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:59:03.203 INFO: CGI pattern: **.php$
+- 14:59:03.203 INFO: Hide files patterns: 
+- 14:59:03.203 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:59:03.281 INFO: Web server url: http://127.0.0.1:11308/
+- 14:59:03.281 INFO: remote_debugging_port = 49199
+- 14:59:03.281 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=49199
+[0806/145904.004:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:59:04.375 DEBUG: App::OnContextInitialized()
+- 14:59:04.375 DEBUG: GetBrowserWindow(): not found, hwnd = 1121052
+- 14:59:04.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:59:04.390 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:59:04.390 DEBUG: StoreBrowserWindow(): hwnd = 1121052
+- 14:59:04.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=B372E59CADD31EB6BCE221B8FE17E8D8 --mojo-platform-channel-handle=1820 /prefetch:2
+- 14:59:04.531 DEBUG: ClientHandler::OnAfterCreated()
+- 14:59:04.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:59:04.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:59:04.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F943C2548DEF0058B7F9BB5ABC9D1983 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F943C2548DEF0058B7F9BB5ABC9D1983 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0806/145904.307:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:59:04.078 DEBUG: OnBrowserCreated()
+- 14:59:04.250 INFO: GET 200 /
+- 14:59:04.625 DEBUG: OnContextCreated()
+- 14:59:04.265 INFO: GET 200 /css/style.css
+- 14:59:04.265 INFO: GET 404 /assets/img/logo.png
+- 14:59:05.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11308/
+[0806/145909.019:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145914.043:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145919.062:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145924.080:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145929.101:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145934.113:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145939.131:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/145944.140:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:59:44.984 DEBUG: WM_DESTROY
+- 14:59:44.015 DEBUG: RemoveBrowserWindow(): hwnd = 1121052
+- 14:59:44.015 INFO: Stopping Mongoose web server
+- 14:59:44.031 DEBUG: Mongoose webserver stopped immediately
+- 14:59:44.031 DEBUG: OnBeforeClose() hwnd=6429560
+- 14:59:44.047 DEBUG: RemoveBrowserWindow(): hwnd = 6429560
+- 14:59:44.047 DEBUG: GetBrowserWindow(): not found, hwnd = 6429560
+- 14:59:44.062 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:59:44.062 DEBUG: Calling CefQuitMessageLoop()
+- 14:59:44.172 INFO: Ended application
+- 14:59:44.172 INFO: --------------------------------------------------------
+- 14:59:50.156 INFO: --------------------------------------------------------
+- 14:59:50.156 INFO: Started application
+- 14:59:50.156 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 14:59:50.156 INFO: Log level = DEBUG4
+- 14:59:50.156 INFO: Starting Mongoose 3.9c web server
+- 14:59:50.156 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 14:59:50.156 INFO: Index files: index.php
+- 14:59:50.156 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 14:59:50.156 INFO: CGI pattern: **.php$
+- 14:59:50.156 INFO: Hide files patterns: 
+- 14:59:50.156 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:59:50.250 INFO: Web server url: http://127.0.0.1:11312/
+- 14:59:50.250 INFO: remote_debugging_port = 56924
+- 14:59:50.250 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=56924
+[0806/145950.650:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 14:59:50.343 DEBUG: App::OnContextInitialized()
+- 14:59:50.359 DEBUG: GetBrowserWindow(): not found, hwnd = 531544
+- 14:59:50.359 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:59:50.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:59:50.375 DEBUG: StoreBrowserWindow(): hwnd = 531544
+- 14:59:50.500 DEBUG: ClientHandler::OnAfterCreated()
+- 14:59:50.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:59:50.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=6B3336519912F6C75DDFA470B73CA5E3 --mojo-platform-channel-handle=1896 /prefetch:2
+- 14:59:50.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:59:50.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=26FAFAB6D0AFBCE16234ACC2BBB63D2D --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=26FAFAB6D0AFBCE16234ACC2BBB63D2D --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[0806/145950.973:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:59:51.062 DEBUG: OnBrowserCreated()
+- 14:59:51.562 DEBUG: OnContextCreated()
+- 14:59:51.187 INFO: GET 200 /css/style.css
+- 14:59:51.187 INFO: GET 200 /assets/img/logo1.png
+- 14:59:51.296 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11312/
+[0806/145955.668:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/150000.700:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/150005.717:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/150010.750:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:00:11.750 DEBUG: WM_DESTROY
+- 15:00:11.750 DEBUG: RemoveBrowserWindow(): hwnd = 531544
+- 15:00:11.765 INFO: Stopping Mongoose web server
+- 15:00:11.765 DEBUG: Mongoose webserver stopped immediately
+- 15:00:11.781 DEBUG: OnBeforeClose() hwnd=859198
+- 15:00:11.781 DEBUG: RemoveBrowserWindow(): hwnd = 859198
+- 15:00:11.781 DEBUG: GetBrowserWindow(): not found, hwnd = 859198
+- 15:00:11.781 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:00:11.796 DEBUG: Calling CefQuitMessageLoop()
+- 15:00:11.859 INFO: Ended application
+- 15:00:11.859 INFO: --------------------------------------------------------
+- 15:00:57.187 INFO: --------------------------------------------------------
+- 15:00:57.187 INFO: Started application
+- 15:00:57.187 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 15:00:57.187 INFO: Log level = DEBUG4
+- 15:00:57.187 INFO: Starting Mongoose 3.9c web server
+- 15:00:57.187 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 15:00:57.187 INFO: Index files: index.php
+- 15:00:57.203 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 15:00:57.203 INFO: CGI pattern: **.php$
+- 15:00:57.203 INFO: Hide files patterns: 
+- 15:00:57.203 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:00:57.281 INFO: Web server url: http://127.0.0.1:11320/
+- 15:00:57.281 INFO: remote_debugging_port = 56043
+- 15:00:57.281 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=56043
+[0806/150057.177:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:00:57.422 DEBUG: App::OnContextInitialized()
+- 15:00:57.437 DEBUG: GetBrowserWindow(): not found, hwnd = 6622920
+- 15:00:57.437 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:00:57.437 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:00:57.437 DEBUG: StoreBrowserWindow(): hwnd = 6622920
+- 15:00:57.015 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=2CE4AB7439E4DA980BEDF8736D3E026C --mojo-platform-channel-handle=1796 /prefetch:2
+- 15:00:57.562 DEBUG: ClientHandler::OnAfterCreated()
+- 15:00:57.562 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:00:57.578 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:00:57.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3AEDB93A309CE98B0C16692E53CEFD24 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3AEDB93A309CE98B0C16692E53CEFD24 --renderer-client-id=3 --mojo-platform-channel-handle=2404 /prefetch:1
+[0806/150057.484:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:00:57.078 DEBUG: OnBrowserCreated()
+- 15:00:58.266 INFO: GET 200 /
+- 15:00:58.625 DEBUG: OnContextCreated()
+- 15:00:58.281 INFO: GET 200 /css/style.css
+- 15:00:58.281 INFO: GET 200 /assets/img/logo1.png
+- 15:00:58.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11320/
+[0806/150102.189:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:01:04.734 DEBUG: WM_DESTROY
+- 15:01:04.734 DEBUG: RemoveBrowserWindow(): hwnd = 6622920
+- 15:01:04.734 INFO: Stopping Mongoose web server
+- 15:01:04.750 DEBUG: Mongoose webserver stopped immediately
+- 15:01:04.750 DEBUG: OnBeforeClose() hwnd=990300
+- 15:01:04.766 DEBUG: RemoveBrowserWindow(): hwnd = 990300
+- 15:01:04.766 DEBUG: GetBrowserWindow(): not found, hwnd = 990300
+- 15:01:04.766 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:01:04.766 DEBUG: Calling CefQuitMessageLoop()
+- 15:01:04.844 INFO: Ended application
+- 15:01:04.844 INFO: --------------------------------------------------------
+- 15:02:13.157 INFO: --------------------------------------------------------
+- 15:02:13.157 INFO: Started application
+- 15:02:13.157 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 15:02:13.157 INFO: Log level = DEBUG4
+- 15:02:13.172 INFO: Starting Mongoose 3.9c web server
+- 15:02:13.172 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 15:02:13.172 INFO: Index files: index.php
+- 15:02:13.172 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 15:02:13.172 INFO: CGI pattern: **.php$
+- 15:02:13.172 INFO: Hide files patterns: 
+- 15:02:13.188 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:02:13.266 INFO: Web server url: http://127.0.0.1:11328/
+- 15:02:13.266 INFO: remote_debugging_port = 49605
+- 15:02:13.266 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=49605
+[0806/150214.008:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:02:14.360 DEBUG: App::OnContextInitialized()
+- 15:02:14.360 DEBUG: GetBrowserWindow(): not found, hwnd = 859218
+- 15:02:14.360 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:02:14.391 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:02:14.391 DEBUG: StoreBrowserWindow(): hwnd = 859218
+- 15:02:14.015 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=36889E1B28AB5C135F049E5D669F6523 --mojo-platform-channel-handle=1804 /prefetch:2
+- 15:02:14.532 DEBUG: ClientHandler::OnAfterCreated()
+- 15:02:14.532 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:02:14.547 DEBUG: OnLoadingStateChange: loading=1, url=
+[0806/150214.296:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:02:14.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6FBB0A93005DBB3C7F42D0439EB53C70 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6FBB0A93005DBB3C7F42D0439EB53C70 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+- 15:02:14.078 DEBUG: OnBrowserCreated()
+- 15:02:14.297 INFO: GET 200 /
+- 15:02:14.703 DEBUG: OnContextCreated()
+- 15:02:15.313 INFO: GET 200 /css/style.css
+- 15:02:15.313 INFO: GET 200 /assets/img/logo1.png
+- 15:02:15.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11328/
+[0806/150219.033:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:02:20.328 DEBUG: WM_DESTROY
+- 15:02:20.328 DEBUG: RemoveBrowserWindow(): hwnd = 859218
+- 15:02:20.328 INFO: Stopping Mongoose web server
+- 15:02:20.360 DEBUG: Mongoose webserver stopped immediately
+- 15:02:20.360 DEBUG: OnBeforeClose() hwnd=3152748
+- 15:02:20.360 DEBUG: RemoveBrowserWindow(): hwnd = 3152748
+- 15:02:20.360 DEBUG: GetBrowserWindow(): not found, hwnd = 3152748
+- 15:02:20.360 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:02:20.360 DEBUG: Calling CefQuitMessageLoop()
+- 15:02:20.438 INFO: Ended application
+- 15:02:20.438 INFO: --------------------------------------------------------
+- 15:03:19.156 INFO: --------------------------------------------------------
+- 15:03:19.156 INFO: Started application
+- 15:03:19.156 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 15:03:19.171 INFO: Log level = DEBUG4
+- 15:03:19.171 INFO: Starting Mongoose 3.9c web server
+- 15:03:19.171 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 15:03:19.171 INFO: Index files: index.php
+- 15:03:19.171 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 15:03:19.171 INFO: CGI pattern: **.php$
+- 15:03:19.171 INFO: Hide files patterns: 
+- 15:03:19.171 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:03:19.250 INFO: Web server url: http://127.0.0.1:11332/
+- 15:03:19.250 INFO: remote_debugging_port = 56485
+- 15:03:19.250 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=56485
+[0806/150319.906:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:03:19.343 DEBUG: App::OnContextInitialized()
+- 15:03:19.359 DEBUG: GetBrowserWindow(): not found, hwnd = 1576668
+- 15:03:19.359 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:03:19.375 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:03:19.375 DEBUG: StoreBrowserWindow(): hwnd = 1576668
+- 15:03:20.016 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=FEDEBDEE23635277EB7998944F6E9B45 --mojo-platform-channel-handle=1800 /prefetch:2
+- 15:03:20.531 DEBUG: ClientHandler::OnAfterCreated()
+- 15:03:20.531 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:03:20.562 DEBUG: OnLoadingStateChange: loading=1, url=
+[0806/150320.233:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:03:20.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0824009CBD1EF9C3B079BFA90FABA6C8 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0824009CBD1EF9C3B079BFA90FABA6C8 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+- 15:03:20.063 DEBUG: OnBrowserCreated()
+- 15:03:20.218 INFO: GET 200 /
+- 15:03:20.578 DEBUG: OnContextCreated()
+- 15:03:20.234 INFO: GET 200 /css/style.css
+- 15:03:20.234 INFO: GET 200 /assets/img/logo1.png
+- 15:03:20.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11332/
+[0806/150324.930:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:03:28.296 DEBUG: WM_DESTROY
+- 15:03:28.296 DEBUG: RemoveBrowserWindow(): hwnd = 1576668
+- 15:03:28.312 INFO: Stopping Mongoose web server
+- 15:03:28.328 DEBUG: Mongoose webserver stopped immediately
+- 15:03:28.328 DEBUG: OnBeforeClose() hwnd=1252432
+- 15:03:28.328 DEBUG: RemoveBrowserWindow(): hwnd = 1252432
+- 15:03:28.328 DEBUG: GetBrowserWindow(): not found, hwnd = 1252432
+- 15:03:28.328 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:03:28.328 DEBUG: Calling CefQuitMessageLoop()
+- 15:03:29.421 INFO: Ended application
+- 15:03:29.421 INFO: --------------------------------------------------------
+- 15:12:31.188 INFO: --------------------------------------------------------
+- 15:12:31.188 INFO: Started application
+- 15:12:31.188 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 15:12:31.188 INFO: Log level = DEBUG4
+- 15:12:31.203 INFO: Starting Mongoose 3.9c web server
+- 15:12:31.219 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 15:12:31.235 INFO: Index files: index.php
+- 15:12:31.235 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 15:12:31.235 INFO: CGI pattern: **.php$
+- 15:12:31.235 INFO: Hide files patterns: 
+- 15:12:31.235 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:12:31.297 INFO: Web server url: http://127.0.0.1:11356/
+- 15:12:31.297 INFO: remote_debugging_port = 54277
+- 15:12:31.297 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=54277
+[0806/151231.971:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:12:32.391 DEBUG: App::OnContextInitialized()
+- 15:12:32.391 DEBUG: GetBrowserWindow(): not found, hwnd = 72932
+- 15:12:32.391 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:12:32.406 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:12:32.422 DEBUG: StoreBrowserWindow(): hwnd = 72932
+- 15:12:32.563 DEBUG: ClientHandler::OnAfterCreated()
+- 15:12:32.563 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:12:32.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=EAEAA5960D5E16581B0C52B28E90FB3C --mojo-platform-channel-handle=1896 /prefetch:2
+- 15:12:32.594 DEBUG: OnLoadingStateChange: loading=1, url=
+[0806/151232.298:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:12:32.015 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EACE156D28E7407CA33276D815516C99 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EACE156D28E7407CA33276D815516C99 --renderer-client-id=3 --mojo-platform-channel-handle=2428 /prefetch:1
+- 15:12:32.078 DEBUG: OnBrowserCreated()
+- 15:12:33.406 INFO: GET 200 /
+- 15:12:33.718 DEBUG: OnContextCreated()
+- 15:12:33.422 INFO: GET 200 /css/style.css
+- 15:12:33.422 INFO: GET 200 /assets/img/logo1.png
+- 15:12:33.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11356/
+[0806/151236.990:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/151242.004:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/151247.020:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/151252.035:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/151257.052:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:12:58.531 DEBUG: WM_DESTROY
+- 15:12:58.531 DEBUG: RemoveBrowserWindow(): hwnd = 72932
+- 15:12:58.547 INFO: Stopping Mongoose web server
+- 15:12:58.547 DEBUG: Mongoose webserver stopped immediately
+- 15:12:58.563 DEBUG: OnBeforeClose() hwnd=72940
+- 15:12:58.563 DEBUG: RemoveBrowserWindow(): hwnd = 72940
+- 15:12:58.563 DEBUG: GetBrowserWindow(): not found, hwnd = 72940
+- 15:12:58.563 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:12:58.563 DEBUG: Calling CefQuitMessageLoop()
+- 15:12:58.641 INFO: Ended application
+- 15:12:58.641 INFO: --------------------------------------------------------
+- 15:13:57.172 INFO: --------------------------------------------------------
+- 15:13:57.172 INFO: Started application
+- 15:13:57.172 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 15:13:57.172 INFO: Log level = DEBUG4
+- 15:13:57.172 INFO: Starting Mongoose 3.9c web server
+- 15:13:57.187 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 15:13:57.187 INFO: Index files: index.php
+- 15:13:57.203 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 15:13:57.203 INFO: CGI pattern: **.php$
+- 15:13:57.203 INFO: Hide files patterns: 
+- 15:13:57.203 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:13:57.281 INFO: Web server url: http://127.0.0.1:11360/
+- 15:13:57.281 INFO: remote_debugging_port = 64775
+- 15:13:57.281 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=64775
+[0806/151357.885:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:13:57.390 DEBUG: App::OnContextInitialized()
+- 15:13:57.390 DEBUG: GetBrowserWindow(): not found, hwnd = 138464
+- 15:13:57.390 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:13:57.390 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:13:57.390 DEBUG: StoreBrowserWindow(): hwnd = 138464
+- 15:13:58.562 DEBUG: ClientHandler::OnAfterCreated()
+- 15:13:58.562 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:13:58.578 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:13:58.015 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=88F5470E024685C8978B7617061FB62C --mojo-platform-channel-handle=1804 /prefetch:2
+- 15:13:58.000 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1D089D7EB224CD19858AAA52FD91B865 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1D089D7EB224CD19858AAA52FD91B865 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[0806/151358.240:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:13:58.078 DEBUG: OnBrowserCreated()
+- 15:13:58.343 INFO: GET 200 /
+- 15:13:58.672 DEBUG: OnContextCreated()
+- 15:13:58.359 INFO: GET 200 /css/style.css
+- 15:13:58.359 INFO: GET 200 /assets/img/logo1.png
+- 15:13:59.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11360/
+[0806/151402.896:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/151407.919:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:14:10.937 DEBUG: WM_DESTROY
+- 15:14:10.953 DEBUG: RemoveBrowserWindow(): hwnd = 138464
+- 15:14:10.953 INFO: Stopping Mongoose web server
+- 15:14:10.968 DEBUG: Mongoose webserver stopped immediately
+- 15:14:10.968 DEBUG: OnBeforeClose() hwnd=728066
+- 15:14:10.968 DEBUG: RemoveBrowserWindow(): hwnd = 728066
+- 15:14:10.968 DEBUG: GetBrowserWindow(): not found, hwnd = 728066
+- 15:14:10.968 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:14:10.984 DEBUG: Calling CefQuitMessageLoop()
+- 15:14:10.078 INFO: Ended application
+- 15:14:10.078 INFO: --------------------------------------------------------
+- 15:14:36.219 INFO: --------------------------------------------------------
+- 15:14:36.219 INFO: Started application
+- 15:14:36.219 INFO: Logging to: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log
+- 15:14:36.219 INFO: Log level = DEBUG4
+- 15:14:36.234 INFO: Starting Mongoose 3.9c web server
+- 15:14:36.234 INFO: WWW directory: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\www\public
+- 15:14:36.234 INFO: Index files: index.php
+- 15:14:36.234 INFO: CGI interpreter: C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\php\php-cgi.exe
+- 15:14:36.250 INFO: CGI pattern: **.php$
+- 15:14:36.250 INFO: Hide files patterns: 
+- 15:14:36.250 INFO: CGI environment variables set: TMP=C:\Users\Maboi\AppData\Local\Temp\,TEMP=C:\Users\Maboi\AppData\Local\Temp\,TMPDIR=C:\Users\Maboi\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:14:36.313 INFO: Web server url: http://127.0.0.1:11368/
+- 15:14:36.328 INFO: remote_debugging_port = 62811
+- 15:14:36.328 DEBUG: Command line string for the browser process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --remote-debugging-port=62811
+[0806/151436.535:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:14:36.422 DEBUG: App::OnContextInitialized()
+- 15:14:36.438 DEBUG: GetBrowserWindow(): not found, hwnd = 203998
+- 15:14:36.453 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:14:36.453 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:14:36.453 DEBUG: StoreBrowserWindow(): hwnd = 203998
+- 15:14:36.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=21.20.16.4727 --gpu-driver-date=6-30-2017 --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --service-request-channel-token=121588E31D72F07D5E2079AB1ECB31DB --mojo-platform-channel-handle=1820 /prefetch:2
+- 15:14:36.578 DEBUG: ClientHandler::OnAfterCreated()
+- 15:14:36.578 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:14:36.609 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:14:36.016 DEBUG: Command line string for the renderer process: "C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=02C4219F830A8D75637398C296F5EBB3 --lang=en-US --lang=en-US --log-file="C:\Users\Maboi\Desktop\MABOI SOLAR CALCULATOR FINAL VERSION\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=02C4219F830A8D75637398C296F5EBB3 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0806/151436.871:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:14:36.094 DEBUG: OnBrowserCreated()
+- 15:14:37.750 DEBUG: OnContextCreated()
+- 15:14:37.438 INFO: GET 200 /
+- 15:14:37.469 INFO: GET 200 /css/style.css
+- 15:14:37.469 INFO: GET 200 /assets/img/logo1.png
+- 15:14:37.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11368/
+[0806/151441.554:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/151446.568:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0806/151451.581:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 15:14:52.156 DEBUG: WM_DESTROY
+- 15:14:52.156 DEBUG: RemoveBrowserWindow(): hwnd = 203998
+- 15:14:52.156 INFO: Stopping Mongoose web server
+- 15:14:52.172 DEBUG: Mongoose webserver stopped immediately
+- 15:14:52.172 DEBUG: OnBeforeClose() hwnd=728034
+- 15:14:52.188 DEBUG: RemoveBrowserWindow(): hwnd = 728034
+- 15:14:52.188 DEBUG: GetBrowserWindow(): not found, hwnd = 728034
+- 15:14:52.188 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:14:52.188 DEBUG: Calling CefQuitMessageLoop()
+- 15:14:52.266 INFO: Ended application
+- 15:14:52.266 INFO: --------------------------------------------------------
